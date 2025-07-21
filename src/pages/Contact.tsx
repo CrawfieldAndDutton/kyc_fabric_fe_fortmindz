@@ -56,7 +56,7 @@ const Contact: React.FC = () => {
           message: "",
         });
       }
-      
+
       setIsSubmitting(false);
     } catch (error) {
       toast({
@@ -66,7 +66,6 @@ const Contact: React.FC = () => {
       });
       setIsSubmitting(false);
     }
-    
   };
 
   return (
@@ -106,6 +105,16 @@ const Contact: React.FC = () => {
                     </div>
                   </div>
 
+                  <div className="flex items-start gap-4">
+                    <MapPin className="h-6 w-6 text-primary mt-1" />
+                    <div>
+                      <h3 className="font-medium">Address</h3>
+                      <p className="text-muted-foreground">
+                        Suite 604 & 1403, Sidco Global Tower, CN-8/2, CN Block,
+                        Sector V, Bidhannagar, Kolkata, West Bengal 700091
+                      </p>
+                    </div>
+                  </div>
                 </div>
 
                 <div className="mt-20 p-6 bg-card border rounded-lg h-[208px]">
