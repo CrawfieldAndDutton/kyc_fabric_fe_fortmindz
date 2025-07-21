@@ -34,12 +34,12 @@ const Footer: React.FC = () => {
             >
               About
             </Link>
-            <Link
+            {/* <Link
               to="/pricing"
               className="text-sm text-muted-foreground hover:text-primary transition-colors"
             >
               Pricing
-            </Link>
+            </Link> */}
             <Link
               to="/contact"
               className="text-sm text-muted-foreground hover:text-primary transition-colors"
@@ -147,8 +147,7 @@ const Footer: React.FC = () => {
 
         <div className="mt-12 pt-6 border-t flex flex-col sm:flex-row items-center justify-between">
           <p className="text-sm text-muted-foreground">
-            &copy; {currentYear} Crawfield & Dutton Enterprise Solutions Private
-            Limited. All rights reserved.
+            &copy; {currentYear} Fortmindz Private Limited. All rights reserved.
           </p>
           <div className="mt-4 sm:mt-0 flex items-center space-x-4">
             <Link to="/" className="text-muted-foreground hover:text-primary">

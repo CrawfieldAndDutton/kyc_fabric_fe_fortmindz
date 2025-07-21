@@ -278,12 +278,12 @@ const Index: React.FC = () => {
                 ))}
               </ul>
 
-              <Link to="/pricing">
+              {/* <Link to="/pricing">
                 <Button size="lg" className="gap-2">
                   View Pricing
                   <ChevronRight className="h-4 w-4" />
                 </Button>
-              </Link>
+              </Link> */}
             </div>
 
             <div className="relative">

@@ -493,9 +493,9 @@ const VerificationHistory: React.FC = () => {
               <p className="text-muted-foreground mb-4">
                 No verification records Found.
               </p>
-              <Button onClick={resetFilters} variant="outline">
+              {/* <Button onClick={resetFilters} variant="outline">
                 Purchase Some Credits
-              </Button>
+              </Button> */}
             </div>
           )}
         </CardContent>

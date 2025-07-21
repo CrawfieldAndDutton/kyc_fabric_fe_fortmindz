@@ -397,13 +397,13 @@ const Dashboard: React.FC = () => {
                 <Search className="h-4 w-4" />
                 <span className="hidden sm:inline">Verification</span> History
               </Button>
-              <Button
+              {/* <Button
                 onClick={() => navigate("/credit-purchase")}
                 className="kyc-btn-primary flex items-center gap-2"
               >
                 <Plus className="h-4 w-4" />
                 Buy Credits
-              </Button>
+              </Button> */}
             </div>
           </div>
 
@@ -446,7 +446,7 @@ const Dashboard: React.FC = () => {
                       </div>
                     </div>
                   </CardContent>
-                  <CardFooter className="pt-0">
+                  {/* <CardFooter className="pt-0">
                     <Button
                       onClick={() => navigate("/credit-purchase")}
                       variant="outline"
@@ -454,7 +454,7 @@ const Dashboard: React.FC = () => {
                     >
                       Purchase more credits
                     </Button>
-                  </CardFooter>
+                  </CardFooter> */}
                 </Card>
                 <div className="w-[30%] max-sm:w-[100%] max-sm:flex">
                   <div

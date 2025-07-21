@@ -108,7 +108,7 @@ const Navbar: React.FC = () => {
           >
             About
           </Link>
-          <Link
+          {/* <Link
             to="/pricing"
             className={cn(
               "px-4 py-2 rounded-md text-sm font-medium transition-colors",
@@ -118,7 +118,7 @@ const Navbar: React.FC = () => {
             )}
           >
             Pricing
-          </Link>
+          </Link> */}
           <Link
             to="/contact"
             className={cn(
@@ -217,7 +217,7 @@ const Navbar: React.FC = () => {
             >
               About
             </Link>
-            <Link
+            {/* <Link
               to="/pricing"
               className={cn(
                 "px-4 py-3 rounded-md text-base font-medium transition-colors",
@@ -227,7 +227,7 @@ const Navbar: React.FC = () => {
               )}
             >
               Pricing
-            </Link>
+            </Link> */}
             <Link
               to="/contact"
               className={cn(

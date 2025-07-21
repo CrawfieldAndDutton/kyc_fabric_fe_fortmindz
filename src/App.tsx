@@ -7,14 +7,14 @@ import { useSelector } from "react-redux";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Pricing from "./pages/Pricing";
+// import Pricing from "./pages/Pricing";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import ApplicationProgress from "./pages/ApplicationProgress";
 import VerificationForm from "./pages/VerificationForm";
 import VerificationHistory from "./pages/VerificationHistory";
-import CreditPurchase from "./pages/CreditPurchase";
+// import CreditPurchase from "./pages/CreditPurchase";
 import NotFound from "./pages/NotFound";
 import AadhaarVerification from "./pages/AadhaarVerification";
 import GstinVerification from "./pages/GstinVerification";
@@ -56,7 +56,7 @@ function App() {
         <Route path="/" element={<Index />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/pricing" element={<Pricing />} />
+        {/* <Route path="/pricing" element={<Pricing />} /> */}
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/reset-password" element={<Reset />} />
@@ -117,7 +117,7 @@ function App() {
             />
           }
         />
-        <Route
+        {/* <Route
           path="/credit-purchase"
           element={
             <PrivateRoute
@@ -125,7 +125,7 @@ function App() {
               element={CreditPurchase}
             />
           }
-        />
+        /> */}
         <Route
           path="/success-payment"
           element={

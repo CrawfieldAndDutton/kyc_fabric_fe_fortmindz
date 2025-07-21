@@ -92,7 +92,7 @@ const Contact: React.FC = () => {
                     <Phone className="h-6 w-6 text-primary mt-1" />
                     <div>
                       <h3 className="font-medium">Phone</h3>
-                      <p className="text-muted-foreground">+91 8617703187</p>
+                      <p className="text-muted-foreground">+91 8013951139</p>
                     </div>
                   </div>
 
@@ -101,20 +101,11 @@ const Contact: React.FC = () => {
                     <div>
                       <h3 className="font-medium">Email</h3>
                       <p className="text-muted-foreground">
-                        support@crawfieldanddutton.com
+                        sales@fortmindz.com
                       </p>
                     </div>
                   </div>
 
-                  <div className="flex items-start gap-4">
-                    <MapPin className="h-6 w-6 text-primary mt-1" />
-                    <div>
-                      <h3 className="font-medium">Address</h3>
-                      <p className="text-muted-foreground">
-                        Suren Sarkar Road, Phoolbagan, Kolkata - 700010, India
-                      </p>
-                    </div>
-                  </div>
                 </div>
 
                 <div className="mt-20 p-6 bg-card border rounded-lg h-[208px]">

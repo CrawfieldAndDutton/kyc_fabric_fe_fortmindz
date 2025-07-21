@@ -139,7 +139,7 @@ const verificationTypes = {
   emailLookup: {
     title: "Email Lookup Verification",
     description: "Email Lookup Verification Details",
-    placeholder: "crawfieldDutton@gmail.com",
+    placeholder: "johndeo@gmail.com",
     icon: <FileText className="h-8 w-8" />,
     credits: 6,
     errorMessage: "Please enter a valid email",
